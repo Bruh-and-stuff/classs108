@@ -1,0 +1,57 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      <center>
+        <div class="startdiv">
+         <h1 class="text-warning" id="header">Monsters Inc. Sound Identification</h1>
+         <br>
+         <p>This website is programmed to identify clapping, clicking and a bell.</p>
+        </div>
+        <div class="col-xs-12 cssdiv" style="background-color:rgb(255, 132, 255);" height="2100">
+          <br>
+          <button class="btn btn-warning" onclick="startHear()" id="startBTN">START</button>
+          <br>
+          <br>
+          <h3 id="Sound">Sound heard: Not heard</h3>
+          <br>
+          <h4 id="Acc">Accuracy: 0</h4>
+          <br>
+          <img src="aliens-01.png" id="monstah1" width="500" height="400">
+          <img src="aliens-02.png" id="monstah2" width="500" height="400">
+          <img src="aliens-03.png" id="monstah3"width="500" height="400">
+          <img src="aliens-04.png" id="monstah4"width="500" height="400">
+          <br><br><br>
+        </div>
+        <footer class="foot">
+          Made by Edison
+        </footer>
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
